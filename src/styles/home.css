@@ -1,0 +1,190 @@
+/* Mission Section */
+.mission {
+    background-color: #F5F5DC;
+    color: #3CB371;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .mission h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .mission p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  /* Featured Products Section */
+  .featured-products {
+    padding: 40px;
+  }
+  
+  .featured-products .product-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  
+  .product-card {
+    border: 1px solid #87CEEB;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .product-card p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    background-color: #E6FFE6;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3CB371;
+  }
+  
+  .testimonials blockquote {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  
+  /* Call to Action Section */
+  .cta {
+    padding: 40px;
+    background-color: #FFFFFF;
+    text-align: center;
+  }
+  
+  .cta h2 {
+    font-size: 2.5rem;
+    color: #228B22;
+  }
+  
+  .cta button {
+    background-color: #228B22;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta button:hover {
+    background-color: #3CB371;
+  }
+  /* Globe Section */
+.globe-section {
+  padding: 40px 20px;
+  background-color: #E6FFE6;
+  text-align: center;
+}
+
+.globe-section h2 {
+  font-size: 2.5rem;
+  color: #3CB371;
+  margin-bottom: 20px;
+}
+
+.globe-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Home Section Styling */
+.home {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #2C3E50;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #16A085;
+}
+
+p {
+  font-size: 1rem;
+  color: #34495E;
+}
+
+/* Globe Section */
+.globe-section {
+  margin: 20px 0;
+}
+
+.globe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+/* Featured Products Section */
+.featured-products {
+  text-align: center;
+  padding: 20px;
+  background-color: #F7F7F7;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #27AE60;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  justify-items: center;
+  padding: 10px;
+}
+
+.product-card {
+  width: 150px;
+  background-color: #F0FFF0; /* Soft green for eco-friendly feel */
+  border: 1px solid #A3D9A5;
+  border-radius: 50% 50% 0 0; /* Leaf shape styling */
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #16A085;
+}

@@ -1,0 +1,36 @@
+.footer {
+    background-color: #3CB371;
+    color: #F5F5DC;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  .footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-content p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .footer-links a {
+    color: #F5F5DC;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #FFD700; /* Adds a golden hover effect */
+  }
+  
+  .footer-copyright {
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+  

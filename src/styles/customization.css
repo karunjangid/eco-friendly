@@ -1,0 +1,149 @@
+/* Main Container Styling */
+.customization-container {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  color: #2C3E50;
+  text-align: center;
+  background-color: #F7F9F7; /* Light eco-friendly background */
+  margin: 0 auto;
+  max-width: 600px;
+  border: 1px solid #EAEAEA;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styling */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #16A085;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #34495E;
+}
+
+/* Options Section */
+.customization-options {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  text-align: left;
+}
+
+.customization-section {
+  padding: 15px;
+  background-color: #FFFFFF;
+  border: 1px solid #D9E3D9;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+label {
+  display: block;
+  font-size: 1rem;
+  color: #2C3E50;
+  margin: 8px 0;
+}
+
+/* Dropdown and Checkbox Styling */
+select,
+input[type="checkbox"] {
+  margin: 10px 0;
+  font-size: 1rem;
+  padding: 8px;
+  border: 1px solid #BDC3C7;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #F9F9F9;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+/* Submit Button Styling */
+button.customization-submit {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background-color: #27AE60;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button.customization-submit:hover {
+  background-color: #1E8449;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .customization-container {
+    max-width: 90%;
+  }
+}
+.customization-container, .checkout-container {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #F7F9F7;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #EAEAEA;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 2rem;
+  color: #16A085;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #34495E;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1rem;
+  color: #34495E;
+}
+
+.product-list, .box-list {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #27AE60;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1E8449;
+}
+
+.checkout-button {
+  margin-top: 20px;
+}
